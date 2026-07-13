@@ -1,16 +1,40 @@
-## Hi there 👋
+👋 Hi, I'm Nabil Afzal
 
-<!--
-**nabilafzal19/nabilafzal19** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI Engineer building production-ready AI applications with
+RAG, Multi-Agent Systems, and LLM-powered workflows.
 
-Here are some ideas to get you started:
+Currently Building
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🚀 AI Software Architecture Generator
+🤖 Production AI Agents
+📄 Production RAG Systems
+
+Core Expertise
+
+• Retrieval-Augmented Generation (RAG)
+• Multi-Agent Architectures
+• LangGraph Workflows
+• Tool Calling & Memory
+• Vector Databases
+• Backend Engineering (Node.js + TypeScript)
+
+Tech Stack
+
+LLMs
+OpenAI • Gemini • Anthropic
+
+AI Frameworks
+LangChain • LangGraph
+
+Backend
+Node.js • TypeScript • Express
+
+Databases
+PostgreSQL • MongoDB • ChromaDB
+
+Infrastructure
+Docker • AWS
+
+Current Goal
+
+Building production-grade AI systems while preparing for AI Engineer roles.
