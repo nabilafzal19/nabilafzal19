@@ -72,6 +72,7 @@ My focus is on building **reliable, scalable, and observable AI systems** that s
 
 * Node.js
 * TypeScript
+* Python
 * Express.js
 * REST APIs
 * Authentication & Authorization
