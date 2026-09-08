@@ -106,6 +106,9 @@ Production API
 * K-Nearest Neighbors (KNN)
 * Decision Trees
 * Random Forest
+* XGBoost
+* K-Mean
+* DBScan
 
 ---
 
