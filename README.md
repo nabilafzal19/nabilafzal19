@@ -1,4 +1,3 @@
-
 ````markdown
 # 👋 Hi, I'm Nabil Afzal
 
@@ -6,40 +5,104 @@
 
 I design and build **AI and Machine Learning systems** that move from experimentation to production.
 
-My focus spans **Machine Learning, Generative AI, LLM applications, RAG, Agentic Systems, MLOps, and production ML systems**, backed by strong backend engineering and system architecture experience.
+My focus spans **Machine Learning, Generative AI, LLM applications, RAG, Agentic Systems, MLOps, and Production ML Systems**, backed by strong backend engineering and system architecture experience.
 
 I enjoy taking an idea from:
 
-**Model Development → API → Testing → Docker → CI/CD → Cloud Deployment**
+**Data → Model Development → API → Testing → Docker → CI/CD → Cloud Deployment**
 
 ---
 
-# 🚀 Featured Project — Bike Rental Prediction
+# 🧠 Machine Learning
 
-### 🚲 End-to-End Machine Learning & MLOps Project
+I have hands-on experience building and comparing Machine Learning models across **regression, classification, and unsupervised learning** problems.
 
-A complete Machine Learning system that predicts **bike rental demand** based on historical and environmental factors.
+## Core Concepts
 
-I experimented with multiple regression algorithms:
+- Supervised Learning
+- Unsupervised Learning
+- Regression
+- Classification
+- Clustering
+- Feature Engineering
+- Feature Scaling
+- Train/Test Splitting
+- Validation
+- Cross-Validation
+- Hyperparameter Tuning
+- Model Evaluation
+- Overfitting & Underfitting
+- Ensemble Learning
+- Model Comparison
+- Feature Importance
+- Model Serialization
+- Model Serving
+
+## Algorithms
+
+### Regression
 
 - Linear Regression
 - K-Nearest Neighbors (KNN)
 - Decision Tree Regression
 - Random Forest Regression
+- Gradient Boosting Regression
+- XGBoost Regression
 
-After comparing the models using **MAE, RMSE, R², cross-validation, and generalization performance**, Random Forest achieved the best results and was selected as the final model.
+### Classification
 
-### 🏆 Final Model
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree Classification
+- Random Forest Classification
+- Gradient Boosting Classification
+- XGBoost Classification
 
-**Random Forest Regression**
+### Clustering
+
+- K-Means
+- DBSCAN
+
+---
+
+# 📊 Machine Learning Projects
+
+## 🚲 Bike Rental Prediction
+
+End-to-end Machine Learning project for predicting **bike rental demand** using historical and environmental features.
+
+The project covers the complete ML workflow:
 
 ```text
-MAE  : 0.3268
-RMSE : 0.5040
-R²   : 0.8062
+Data
+ ↓
+Exploratory Data Analysis
+ ↓
+Feature Engineering
+ ↓
+Model Training
+ ↓
+Model Comparison
+ ↓
+Hyperparameter Tuning
+ ↓
+Cross-Validation
+ ↓
+Model Selection
+ ↓
+Production API
 ````
 
-The trained model was then converted into a production ML service using **FastAPI**.
+Multiple regression algorithms were experimented with and evaluated using:
+
+* MAE
+* MSE
+* RMSE
+* R²
+* Cross-Validation
+* Generalization Performance
+
+The selected model was then prepared for production deployment.
 
 ### Production Deployment
 
@@ -67,7 +130,10 @@ Production API
 
 ### MLOps Technologies
 
+* FastAPI
+* Pytest
 * Docker
+* Multi-Stage Docker Builds
 * GitHub Actions
 * GitHub Container Registry
 * AWS EC2
@@ -75,40 +141,45 @@ Production API
 * AWS OIDC
 * AWS Systems Manager
 * CI/CD
-* Automated Testing
 * Containerized ML Inference
-* Production Model Deployment
 
 ---
 
-# 🧠 Machine Learning
+# 👥 Customer Segmentation
 
-## Machine Learning Expertise
+Unsupervised Machine Learning project using **K-Means clustering** to identify meaningful customer segments from behavioral and purchasing characteristics.
 
-* Supervised Learning
-* Regression
-* Classification
-* Feature Engineering
-* Train/Test Splitting
-* Cross-Validation
-* Hyperparameter Tuning
-* Model Evaluation
-* Overfitting & Underfitting
-* Ensemble Learning
-* Model Comparison
-* Feature Importance
-* Model Serialization
-* Model Serving
+### Workflow
 
-### Algorithms
+```text
+Customer Data
+     ↓
+Data Exploration
+     ↓
+Feature Selection
+     ↓
+Feature Scaling
+     ↓
+K-Means Clustering
+     ↓
+Choosing Number of Clusters
+     ↓
+Cluster Analysis
+     ↓
+Customer Segmentation
+```
 
-* Linear Regression
-* K-Nearest Neighbors (KNN)
-* Decision Trees
-* Random Forest
-* XGBoost
-* K-Mean
-* DBScan
+### Concepts Implemented
+
+* Unsupervised Learning
+* K-Means Clustering
+* Feature Scaling
+* Elbow Method
+* Cluster Analysis
+* Cluster Interpretation
+* Customer Profiling
+
+The resulting clusters can be used to identify different customer groups based on purchasing behavior and characteristics.
 
 ---
 
@@ -116,7 +187,7 @@ Production API
 
 I focus on taking Machine Learning models beyond notebooks and deploying them as production-ready services.
 
-### MLOps
+## MLOps
 
 * ML Model Serving
 * FastAPI
@@ -133,7 +204,7 @@ I focus on taking Machine Learning models beyond notebooks and deploying them as
 * Production Deployment
 * Containerized Inference
 
-### Production ML Workflow
+## Production ML Workflow
 
 ```text
 Data
@@ -268,13 +339,21 @@ Production Inference
 
 ---
 
-# 🛠 Featured Projects
+# 🚀 Featured Projects
+
+### 👥 Customer Segmentation
+
+Unsupervised Machine Learning project using **K-Means clustering** to identify meaningful customer segments from behavioral and purchasing data.
+
+**Tech:** Python, Pandas, NumPy, Scikit-learn, Matplotlib
+
+---
 
 ### 🚲 Bike Rental Prediction
 
-End-to-end ML project for predicting bike rental demand.
+End-to-end Machine Learning project for predicting bike rental demand with model comparison, hyperparameter tuning, cross-validation, testing, containerization, CI/CD, and AWS deployment.
 
-**Tech:** Python, Scikit-learn, FastAPI, Docker, GitHub Actions, GHCR, AWS EC2, AWS IAM, OIDC, SSM
+**Tech:** Python, Scikit-learn, FastAPI, Pytest, Docker, GitHub Actions, GHCR, AWS EC2, AWS IAM, OIDC, SSM
 
 ---
 
@@ -317,28 +396,6 @@ I focus on building systems that are:
 
 My goal is to bridge the gap between **Machine Learning, Generative AI, and Backend Engineering** and build intelligent systems that solve real-world problems.
 
----
-
-# 📚 Current Learning Path
-
-```text
-Machine Learning
-      ↓
-Deep Learning
-      ↓
-NLP & Transformers
-      ↓
-LLM Training & Fine-Tuning
-      ↓
-MLOps
-      ↓
-Production ML Systems
-      ↓
-AI/ML Engineering
-```
-
----
-
 # 📫 Let's Connect
 
 I'm interested in opportunities involving:
@@ -351,5 +408,7 @@ I'm interested in opportunities involving:
 * Agentic AI
 * Production ML Systems
 * MLOps
+* Backend + AI Systems
 
-
+```
+```
